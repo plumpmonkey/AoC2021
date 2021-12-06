@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 import os
 import numpy as np
+import matplotlib.pyplot as plt
 
 dirname = os.path.dirname(__file__)
 input_file = os.path.join(dirname, 'input.txt')
@@ -64,6 +65,10 @@ def part1(coords, dimensions):
 
     print(f"Part 1: Number of overlaps = {str(np.count_nonzero(map >= 2))}")
 
+    # Draw the map using matplotlib
+    plt.imshow(map)
+    plt.show()
+
     return
 
 
@@ -81,6 +86,10 @@ def part2(coords, dimensions):
             map[pos] += 1
 
     print(f"Part 2: Number of overlaps = {str(np.count_nonzero(map >= 2))}")
+
+    # Draw the map using matplotlib
+    plt.imshow(map)
+    plt.show()
 
     return
 
