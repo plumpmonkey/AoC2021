@@ -66,7 +66,7 @@ def part1(coords, dimensions):
     print(f"Part 1: Number of overlaps = {str(np.count_nonzero(map >= 2))}")
 
     # Draw the map using matplotlib
-    plt.imshow(map)
+    plt.imshow(map, cmap='hot', interpolation='nearest')
     plt.show()
 
     return
@@ -88,7 +88,7 @@ def part2(coords, dimensions):
     print(f"Part 2: Number of overlaps = {str(np.count_nonzero(map >= 2))}")
 
     # Draw the map using matplotlib
-    plt.imshow(map)
+    plt.imshow(map, cmap='hot', interpolation='nearest')
     plt.show()
 
     return
