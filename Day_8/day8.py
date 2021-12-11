@@ -81,8 +81,6 @@ def part2(signals, output):
                 # 5 segments could be Digits 2, 3 or 5
                 #
                 # Digit 1 is a subset of Digit 3 and no others.
-                # if numberMap[1].issubset(number):
-                #     numberMap[3] = number
                 if (set(numberMap[1])).issubset(number):
                     numberMap[3] = number
 
