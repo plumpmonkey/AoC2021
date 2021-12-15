@@ -15,5 +15,5 @@ Advent of Code 2021 Challenges
 | Day 10 | Syntax Scoring             |                                                                    |
 | Day 11 | Dumbo Octopus             |                                                                    |
 | Day 12 | Passage Pathing             | Mapping through a cave system using recursion                      |
-| Day 13 | Transparent Origami             |                                                                    |
+| Day 13 | Transparent Origami             | Using Numpy arrays                                                 |
 | Day 14 | Extended Polymerization             | Polymerchains - used dictionaries to count the exponential figures |
